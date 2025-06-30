@@ -7,5 +7,7 @@ function drivingAge() {
 
   if (age > 16) {
     alert("You're old enough to drive.")
+  } else if (age < 16){
+    alert("You're not old enough to drive.")
   }
 }
